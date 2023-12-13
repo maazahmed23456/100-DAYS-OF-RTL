@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="clockdivider_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="clockdivider_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="597.001 ns"></ZoomEndTime>
+      <Cursor1Time time="98.400 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/clockdivider_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clockdivider_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clockdivider_tb/divideby2" type="logic">
+      <obj_property name="ElementShortName">divideby2</obj_property>
+      <obj_property name="ObjectShortName">divideby2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clockdivider_tb/divideby4" type="logic">
+      <obj_property name="ElementShortName">divideby4</obj_property>
+      <obj_property name="ObjectShortName">divideby4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clockdivider_tb/divideby8" type="logic">
+      <obj_property name="ElementShortName">divideby8</obj_property>
+      <obj_property name="ObjectShortName">divideby8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clockdivider_tb/divideby16" type="logic">
+      <obj_property name="ElementShortName">divideby16</obj_property>
+      <obj_property name="ObjectShortName">divideby16</obj_property>
+   </wvobject>
+</wave_config>
