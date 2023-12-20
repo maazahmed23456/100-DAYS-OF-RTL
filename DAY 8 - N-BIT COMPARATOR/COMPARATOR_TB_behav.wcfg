@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="COMPARATOR_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="COMPARATOR_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="900.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/COMPARATOR_TB/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATOR_TB/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATOR_TB/Lesser" type="logic">
+      <obj_property name="ElementShortName">Lesser</obj_property>
+      <obj_property name="ObjectShortName">Lesser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATOR_TB/Greater" type="logic">
+      <obj_property name="ElementShortName">Greater</obj_property>
+      <obj_property name="ObjectShortName">Greater</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATOR_TB/Equal" type="logic">
+      <obj_property name="ElementShortName">Equal</obj_property>
+      <obj_property name="ObjectShortName">Equal</obj_property>
+   </wvobject>
+</wave_config>
