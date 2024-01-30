@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dual_port_ram_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dual_port_ram_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,008 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="143"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/dual_port_ram_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/addr_in_0" type="array">
+      <obj_property name="ElementShortName">addr_in_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/addr_in_1" type="array">
+      <obj_property name="ElementShortName">addr_in_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/port_en_0" type="logic">
+      <obj_property name="ElementShortName">port_en_0</obj_property>
+      <obj_property name="ObjectShortName">port_en_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/port_en_1" type="logic">
+      <obj_property name="ElementShortName">port_en_1</obj_property>
+      <obj_property name="ObjectShortName">port_en_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/data_out_0" type="array">
+      <obj_property name="ElementShortName">data_out_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/data_out_1" type="array">
+      <obj_property name="ElementShortName">data_out_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/addr_width" type="array">
+      <obj_property name="ElementShortName">addr_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/data_width" type="array">
+      <obj_property name="ElementShortName">data_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dual_port_ram_tb/depth" type="array">
+      <obj_property name="ElementShortName">depth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">depth[31:0]</obj_property>
+   </wvobject>
+</wave_config>
